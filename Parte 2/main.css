@@ -1,21 +1,22 @@
-
-.azul {
-	background-color: blue;
+.abuelo {
+	background-color: #ED462F;
 	width: 500px;
-	height: 500px;
-	position: absolute;
+	height: 500px;	
+	box-sizing: border-box;
+	padding: 80px;
+	position: relative;
 }
-.verde {
-	background-color: green;
-	width: 300px;
-	height: 300px;
-	position: absolute;
-	left: 100px;
-	top: 100px;
+
+.padre {
+	background-color: #752E80;
+	height: 100%;
 }
-.negro {
-	background-color: black;
+
+.hijo {
+	background-color: #FFF835;
 	width: 100px;
 	height: 100px;
-	position: static;
+	top:0px;
+	left: 0px;
+	position: absolute;
 }

@@ -1,21 +1,20 @@
-
-.rojo {
-	background-color: red;
+.abuelo {
+	background-color: #ED462F;
 	width: 500px;
 	height: 500px;
-	position: static;
+	box-sizing: border-box;
+	padding: 80px;
 }
-.morado {
-	background-color: purple;
-	width: 300px;
-	height: 300px;
-	position: absolute;
-	left: 100px;
-	top: 100px;
+
+.padre {
+	background-color: #752E80;
+	height: 100%;
+	position: relative;
 }
-.amarillo {
-	background-color: yellow;
-	width: 150px;
-	height: 150px;
+
+.hijo {
+	background-color: #FFF835;
+	width: 100px;
+	height: 100px;
 	position: absolute;
 }
